@@ -1,0 +1,14 @@
+<%= params %>
+<%=@name%>
+<%=@number%>
+<% if @number=="4" %>
+    <%=@name%><%=@name%><%=@name%><%=@name%>
+    <% elsif @number=="3" %>
+    <%=@name%><%=@name%><%=@name%>
+    <% elsif @number=="2" %>
+    <%=@name%><%=@name%>
+    <% elsif @number=="1" %>
+    <%=@name%>
+    <% else %>
+    <a href="/">마셔라! 마셔라! 술이들어간다!</a>
+<%end%>
